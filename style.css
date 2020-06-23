@@ -1,0 +1,315 @@
+@font-face {
+    font-family: GeorgiaBolt;
+    src: url("fonts/Georgia-Bold.eot");
+    src: url("fonts/Georgia-Bold.ttf");
+    src: url("fonts/Georgia-Bold.woff");  
+    font-weight: 700;  
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.menu__cover{
+    width: 100%;
+    margin: 0;
+    padding: 17px 0;
+    font-family: 'Lato', sans-serif;
+    border-bottom: solid 1px #D6D6D6;
+}
+.menu__cover-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 557px;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+.link:hover{
+    color: #01996D;
+}
+
+.sing-in{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 245px;
+}
+.sing-in__text{
+    font-size: 20px;
+}
+.text-2.button{
+    padding: 10px 34px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #01996D;
+    border-radius: 3px;
+    border: none;
+    width: auto;
+    margin: 0;
+}
+.button:hover{
+    background-color: rgb(4, 102, 74);
+}
+
+
+.short-info-block{
+    background-image: url("img/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    font-family: 'Lato', sans-serif;
+    padding: 175px 0 230px 0;
+}
+.text-1{
+    font-family: GeorgiaBolt;
+    color: #01996D;
+    width: 440px;
+    font-size: 65px;
+    margin: 0 0 30px 0;
+}
+.text-2{
+    width: 420px;
+    font-size: 20px;
+    color: #484848;
+    margin-bottom: 47px;
+}
+
+
+
+
+
+
+/******************MAIN**********************/
+.main-info-cover-block{
+    font-family: 'Lato', sans-serif;
+    padding: 170px 0 50px 0;
+}
+.title{
+    font-size: 24px;
+}
+.some-info-block{
+    display: flex;
+    justify-content: space-between;
+}
+.text-1.how-it-works{
+    font-size: 50px;
+    width: 584px;
+    line-height: 157%;
+}
+.text-2.how-it-works{
+    width: 657px;
+    line-height: 150%;
+}
+
+
+.some-info-block-with-photos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.text-2.block-with-photos{
+    width: 382px;
+}
+.rectangle{
+    height: 492px;
+    background-image: url("img/Rectangle01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+.rectangle-01__absolute{
+    position: absolute;
+    top: 223px;
+    left: 198px;
+}
+.rectangle.rectangle-02{
+    background-image: url("img/Rectangle02.png");
+}
+.rectangle.rectangle-03{
+    background-image: url("img/Group03.png");
+}
+.cover-block-02{
+    padding-top: 270px;
+}
+.cover-block-03{
+    padding-top: 28px;
+}
+
+
+.headline-and-video-cover-block{
+    background-color: #245852;
+    padding: 227px 0 177px 0;
+    font-family: 'Lato', sans-serif;
+}
+.headline-and-video-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headline{
+    width: 573px;
+    color: #fff;
+}
+.text-1.headline{
+    font-size: 50px;
+    line-height: 157%;
+}
+.text-2.headline{
+    font-size: 25px;
+    line-height: 157%;
+}
+.video{
+    width: 797px;
+}
+
+
+
+.our-product-cover-block{
+    padding: 120px 0 165px 0;
+    font-family: 'Lato', sans-serif;
+}
+.our-product-block{
+    display: flex;
+    justify-content: space-around;
+}
+.card-block{
+    position: relative;
+    margin-left: 49px;
+}
+.card{
+    width: 296px;
+    height: 294px;
+    background-color: #fff;
+    padding: 24px 0;
+    position: absolute;
+    top: 355px;
+    right: 408px;
+    box-shadow: 0 6px 21px rgba(0, 0, 0, 0.2);
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.top-of-the-card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text-2.card-title{
+    font-size: 15px;
+    line-height: 157%;
+    width: 131px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 0.75px solid #000;
+}
+.circle{
+    background-image: url("img/Mikayla-circul.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 57px;
+    height: 57px;
+}
+.text-2.card-name{
+    font-size: 12px;
+    line-height: 157%;
+    width: 41px;
+    margin-bottom: 17px;
+}
+
+.custome-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-1.card-text{
+    width: 181px;
+    font-size: 16px;
+    color: #000;
+    line-height: 157%;
+    margin: 0 0 13px 63px;
+}
+.list{
+    margin: 0 0 0 42px;
+}
+.text-2.card-info{
+    font-size: 11px;
+    line-height: 157%;
+    width: 122px;
+    margin-bottom: 14px;
+    list-style-type: disc;
+}
+
+.our-product{
+    width: 584px;
+}
+.text-2.our-product-text{
+    font-size: 25px;
+    line-height: 157%;
+    margin-bottom: 16px;
+}
+.text-1.our-product-text{
+    line-height: 157%;
+    font-size: 50px;
+    width: 583px;
+}
+.text-2.our-product-text-1{
+    width: 530px;
+    margin-bottom: 28px;
+}
+
+
+
+
+/**********FOOTER************/
+.footer{
+    background-color: #245852;
+    font-family: 'Lato', sans-serif;
+}
+
+.some-links-block{
+    padding: 35px 0 40px 0;
+}
+.some-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-2.link-1{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.text-2.link-1:hover{
+    color: #01996D;
+}
+.text-2.link-1.alivio{
+    font-size: 35px;
+    font-weight: 700;
+}
